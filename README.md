@@ -15,7 +15,7 @@ Using raspberry pi and a reed switch connected to PGIO port 23 and ground pins r
 
 1. Chrome 45+
 
-1. have **Read** access to the [rhysturner/cloudship-server/overview](https://bitbucket.org/rhysturner/cloudship-server/overview) repository
+1. have **Read** access to the [https://github.com/rhysturner/CloudShip-Pi](https://github.com/rhysturner/CloudShip-Pi) repository
 
 1. have your **SSH Keys** installed at [Bitbucket](https://bitbucket.org/)
 
@@ -31,6 +31,9 @@ Run the following comands on the raspberry pi
     $ cd cloudship-server
     $ npm install
 
-Test
-
+Test from the Raspberry pi
+	
+	$ npm install
 	$ npm start
+
+Open chrome on your pi and go to http://localhost:8000
